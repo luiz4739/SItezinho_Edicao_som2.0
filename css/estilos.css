@@ -8,7 +8,7 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #e7e7e7 0%,#494a4b 100%);
+  background: linear-gradient(45deg, #b514dd 0%,#1f0263 50%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -22,15 +22,6 @@ h1 {
   font-size: 2rem;
 }
 
-.teclado {
-  background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
-  border-radius: 30px;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 10px;
-}
 
 .tecla {
   background-color: var(--branca);
